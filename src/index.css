@@ -32,3 +32,14 @@ body {
 ::-webkit-scrollbar-corner {
   display: none;
 }
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('/backimage.jpg')no-repeat center center fixed;
+  background-size: cover;
+  /* background-position: center; */
+}
